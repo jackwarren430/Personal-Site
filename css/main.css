@@ -1,0 +1,68 @@
+
+
+.bar {
+	position: sticky;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.bar-button {
+	text-decoration: none;
+	transition: transform 0.3s;
+	color: #0d106e;
+}
+
+.bar-button:hover {
+	transform: scale(1.1);
+	color: #0005a1;
+}
+
+.main {
+	font-family: 'Coolvetica', 'Arial';
+	color: #0d106e;
+}
+
+.front-page {
+	background-image: url('../img/title-background.png');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.container {
+	margin-right: 15%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-top: 13%;
+}
+
+.top-hello {
+	margin-top: 0%;
+	margin-bottom: 50px;
+	margin-right: 0%;
+	margin-left: 80%;
+	font-size: 90px;
+	padding: 0%;
+}
+
+.arrow-img {
+	display: block;
+	width: 100px;
+	margin: auto;
+}
+
+@font-face {
+  font-family: 'Yellow Ginger';
+  src: url('../fonts/Yellow_Ginger.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/coolvetica_rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
