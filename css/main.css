@@ -1,41 +1,65 @@
+html {
+	scroll-behavior: smooth;
+}
 
+
+h1 {
+	font-family: 'Yellow Ginger', 'Arial';
+	text-align: center;
+	margin-top: 50px;
+}
 
 .bar {
-	position: sticky;
+	width: 90%;
+	height: 8%;
+	margin-left: 5%;
+	position: fixed;
 	display: flex;
 	justify-content: space-around;
 	border: 2px solid black;
 	border-radius: 5px;
 	margin-bottom: 20px;
+	background-color: white;
 }
 
 .bar-button {
 	text-decoration: none;
 	transition: transform 0.3s;
 	color: #0d106e;
+	margin-top: 10px;
+	margin-bottom: 0%;
 }
 
 .bar-button:hover {
 	transform: scale(1.1);
 	color: #0005a1;
+	
 }
 
 .main {
 	font-family: 'Coolvetica', 'Arial';
 	color: #0d106e;
+	padding-top: 10px;
+}
+
+.block {
+
 }
 
 .front-page {
 	background-image: url('../img/title-background.png');
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 10%;
+	padding-top: 40px;
+	padding-bottom: 1px;
+	margin-top: 80px;
 }
 
 .container {
 	margin-right: 15%;
 	margin-left: 10%;
-	margin-bottom: 10%;
-	margin-top: 13%;
+	margin-bottom: 8%;
+	margin-top: 10%;
 }
 
 .top-hello {
@@ -45,6 +69,7 @@
 	margin-left: 80%;
 	font-size: 90px;
 	padding: 0%;
+	font-family: 'Coolvetica', 'Arial';
 }
 
 .arrow-img {
